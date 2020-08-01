@@ -1,0 +1,57 @@
+        
+<nav class="lg navbar navbar-expand-lg navbar-dark default-color">
+  <a class="navbar-brand" id="pathFinder" href="#">PATHFINDING VISUALIZER</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
+    aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
+    <ul class="navbar-nav mr-auto">
+
+      <li class="nav-item">
+        <a class="nav-link" id="clearBoard" href="#" onClick={() => this.clearAllBoard()}>Clear Board
+        </a>
+      </li>
+
+
+
+      <li className="nav-item dropdown">
+        <a className="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false" >Algorithms
+        </a>
+        <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-333">
+          <a className="dropdown-item" href="#/action-1" >Dijsktra's</a>
+          <a className="dropdown-item" href="#/action-2" >Bfs</a>
+          <a className="dropdown-item" href="#/action-3" >Dfs</a>
+          <a className="dropdown-item" href="#/action-4" >Bidirectional</a>
+        </div>
+      </li>
+
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">Maze & Patterns
+        </a>
+        <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+          <a class="dropdown-item" href="#" onClick={() => this.StairCaseRepresentation()}>StairCase</a>
+          <a class="dropdown-item" href="#" onClick={() => this.HorizontalMaze()}>Horizontal</a>
+        </div>
+      </li>
+
+
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">Speed
+        </a>
+        <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+          <a class="dropdown-item" href="#" onClick={() => this.adjustSlow()}>Slow</a>
+          <a class="dropdown-item" href="#" onClick={() => this.adjustNormal()}>Normal</a>
+          <a class="dropdown-item" href="#" onClick={() => this.adjustFast()}>Fast</a>
+        </div>
+      </li>
+
+
+    </ul>
+    </div>
+</nav>

@@ -1,0 +1,51 @@
+.grid{
+    margin-top:70px;
+    margin-left:23px;
+}
+
+#navbar{
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  background-color: rgb(24, 58, 78);
+}
+
+#header{
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+}
+
+#content{
+  font-weight: 700;
+  color: white;
+  padding: 12px 12px 12px 12px;
+  margin-left: 16px;
+}
+
+#content:hover{
+  color: rgb(21, 156, 78);
+}
+
+#collasible-nav-dropdown{
+  font-weight: 700;
+  color: white;
+  padding: 12px 12px 12px 12px;
+  margin-left: 16px;
+}
+
+#collasible-nav-dropdown:hover{
+  color: rgb(21, 156, 78);
+}
+
+
+#dropdown-content{
+  font-weight: 600;
+  background-color: rgb(24, 58, 78);
+  color: white;
+  border: rgb(24, 58, 78);
+  font-size: small;
+}
+
+#dropdown-content:hover{
+  color: rgb(21, 156, 78);
+}
+
